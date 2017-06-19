@@ -1,0 +1,22 @@
+                         '#EXT-X-MEDIA-SEQUENCE:1\n' +
+                              '#EXTINF:10,\n' +
+                              '1.ts\n' +
+                              '#EXTINF:10,\n' +
+                              '2.ts\n' +
+                              '#EXTINF:10,\n' +
+                              '3.ts\n' +
+                              '#EXTINF:10,\n' +
+                              '4.ts\n');
+  QUnit.equal(loader.expired_, 0, 'expired one segment');
+});
+
+QUnit.test('increments expired seconds after a segment is removed', function() {
+  let loader = new PlaylistLoader('live.m3u8', this.fakeHls);
+
+  loader.load();
+
+  loader.trigger('firstplay');
+  this.requests.pop().respond(200, null,
+                              '#EXTM3U\n' +
+                              '#EXT-X-MEDIA-SEQUENCE:0\n' +
+                              '#EXTINF:10,\n' +

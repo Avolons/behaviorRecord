@@ -1,0 +1,224 @@
+               '#EXTM3U\n' +
+                              '#EXT-X-MEDIA-SEQUENCE:0\n' +
+                              '#EXTINF:4,\n' +
+                              '0.ts\n' +
+                              '#EXT-X-DISCONTINUITY\n' +
+                              '#EXTINF:5,\n' +
+                              '1.ts\n' +
+                              '#EXT-X-DISCONTINUITY\n' +
+                              '#EXTINF:6,\n' +
+                              '2.ts\n' +
+                              '#EXTINF:7,\n' +
+                              '3.ts\n');
+  this.clock.tick(10 * 1000);
+  this.requests.pop().respond(200, null,
+                              '#EXTM3U\n' +
+                              '#EXT-X-MEDIA-SEQUENCE:3\n' +
+                              '#EXT-X-DISCONTINUITY-SEQUENCE:2\n' +
+                              '#EXTINF:7,\n' +
+                              '3.ts\n');
+  QUnit.equal(loader.expired_, 4 + 5 + 6, 'tracked multiple expiring discontinuities');
+});
+
+QUnit.test('estimates expired if an entire window elapses between live playlist updates',
+function() {
+  let loader = new PlaylistLoader('live.m3u8', this.fakeHls);
+
+  loader.load();
+
+  loader.trigger('firstplay');
+  this.requests.pop().respond(200, null,
+                              '#EXTM3U\n' +
+                              '#EXT-X-MEDIA-SEQUENCE:0\n' +
+                              '#EXTINF:4,\n' +
+                              '0.ts\n' +
+                              '#EXTINF:5,\n' +
+                              '1.ts\n');
+
+  this.clock.tick(10 * 1000);
+  this.requests.pop().respond(200, null,
+                              '#EXTM3U\n' +
+                              '#EXT-X-MEDIA-SEQUENCE:4\n' +
+                              '#EXTINF:6,\n' +
+                              '4.ts\n' +
+                              '#EXTINF:7,\n' +
+                              '5.ts\n');
+
+  QUnit.equal(loader.expired_,
+              4 + 5 + (2 * 10),
+              'made a very rough estimate of expired time');
+});
+
+QUnit.test('emits an error when an initial playlist request fails', function() {
+  let errors = [];
+  let loader = new PlaylistLoader('master.m3u8', this.fakeHls);
+
+  loader.load();
+
+  loader.on('error', function() {
+    errors.push(loader.error);
+  });
+  this.requests.pop().respond(500);
+
+  QUnit.strictEqual(errors.length, 1, 'emitted one error');
+  QUnit.strictEqual(errors[0].status, 500, 'http status is captured');
+});
+
+QUnit.test('errors when an initial media playlist request fails', function() {
+  let errors = [];
+  let loader = new PlaylistLoader('master.m3u8', this.fakeHls);
+
+  loader.load();
+
+  loader.on('error', function() {
+    errors.push(loader.error);
+  });
+  this.requests.pop().respond(200, null,
+                              '#EXTM3U\n' +
+                              '#EXT-X-STREAM-INF:\n' +
+                              'media.m3u8\n');
+
+  QUnit.strictEqual(errors.length, 0, 'emitted no errors');
+
+  this.requests.pop().respond(500);
+
+  QUnit.strictEqual(errors.length, 1, 'emitted one error');
+  QUnit.strictEqual(errors[0].status, 500, 'http status is captured');
+});
+
+// http://tools.ietf.org/html/draft-pantos-http-live-streaming-12#section-6.3.4
+QUnit.test('halves the refresh timeout if a playlist is unchanged since the last reload',
+function() {
+  let loader = new PlaylistLoader('live.m3u8', this.fakeHls);
+
+  loader.load();
+
+  this.requests.pop().respond(200, null,
+                              '#EXTM3U\n' +
+                              '#EXT-X-MEDIA-SEQUENCE:0\n' +
+                              '#EXTINF:10,\n' +
+                              '0.ts\n');
+  // trigger a refresh
+  this.clock.tick(10 * 1000);
+  this.requests.pop().respond(200, null,
+                              '#EXTM3U\n' +
+                              '#EXT-X-MEDIA-SEQUENCE:0\n' +
+                              '#EXTINF:10,\n' +
+                              '0.ts\n');
+  // half the default target-duration
+  this.clock.tick(5 * 1000);
+
+  QUnit.strictEqual(this.requests.length, 1, 'sent a request');
+  QUnit.strictEqual(this.requests[0].url,
+                    urlTo('live.m3u8'),
+                    'requested the media playlist');
+});
+
+QUnit.test('preserves segment metadata across playlist refreshes', function() {
+  let loader = new PlaylistLoader('live.m3u8', this.fakeHls);
+  let segment;
+
+  loader.load();
+
+  this.requests.pop().respond(200, null,
+                              '#EXTM3U\n' +
+                              '#EXT-X-MEDIA-SEQUENCE:0\n' +
+                              '#EXTINF:10,\n' +
+                              '0.ts\n' +
+                              '#EXTINF:10,\n' +
+                              '1.ts\n' +
+                              '#EXTINF:10,\n' +
+                              '2.ts\n');
+  // add PTS info to 1.ts
+  segment = loader.media().segments[1];
+  segment.minVideoPts = 14;
+  segment.maxAudioPts = 27;
+  segment.preciseDuration = 10.045;
+
+  // trigger a refresh
+  this.clock.tick(10 * 1000);
+  this.requests.pop().respond(200, null,
+                              '#EXTM3U\n' +
+                              '#EXT-X-MEDIA-SEQUENCE:1\n' +
+                              '#EXTINF:10,\n' +
+                              '1.ts\n' +
+                              '#EXTINF:10,\n' +
+                              '2.ts\n');
+
+  QUnit.deepEqual(loader.media().segments[0], segment, 'preserved segment attributes');
+});
+
+QUnit.test('clears the update timeout when switching quality', function() {
+  let loader = new PlaylistLoader('live-master.m3u8', this.fakeHls);
+  let refreshes = 0;
+
+  loader.load();
+
+  // track the number of playlist refreshes triggered
+  loader.on('mediaupdatetimeout', function() {
+    refreshes++;
+  });
+  // deliver the master
+  this.requests.pop().respond(200, null,
+                              '#EXTM3U\n' +
+                              '#EXT-X-STREAM-INF:BANDWIDTH=1\n' +
+                              'live-low.m3u8\n' +
+                              '#EXT-X-STREAM-INF:BANDWIDTH=2\n' +
+                              'live-high.m3u8\n');
+  // deliver the low quality playlist
+  this.requests.pop().respond(200, null,
+                              '#EXTM3U\n' +
+                              '#EXT-X-MEDIA-SEQUENCE:0\n' +
+                              '#EXTINF:10,\n' +
+                              'low-0.ts\n');
+  // change to a higher quality playlist
+  loader.media('live-high.m3u8');
+  this.requests.pop().respond(200, null,
+                              '#EXTM3U\n' +
+                              '#EXT-X-MEDIA-SEQUENCE:0\n' +
+                              '#EXTINF:10,\n' +
+                              'high-0.ts\n');
+  // trigger a refresh
+  this.clock.tick(10 * 1000);
+
+  QUnit.equal(1, refreshes, 'only one refresh was triggered');
+});
+
+QUnit.test('media-sequence updates are considered a playlist change', function() {
+  let loader = new PlaylistLoader('live.m3u8', this.fakeHls);
+
+  loader.load();
+
+  this.requests.pop().respond(200, null,
+                              '#EXTM3U\n' +
+                              '#EXT-X-MEDIA-SEQUENCE:0\n' +
+                              '#EXTINF:10,\n' +
+                              '0.ts\n');
+  // trigger a refresh
+  this.clock.tick(10 * 1000);
+  this.requests.pop().respond(200, null,
+                              '#EXTM3U\n' +
+                              '#EXT-X-MEDIA-SEQUENCE:1\n' +
+                              '#EXTINF:10,\n' +
+                              '0.ts\n');
+  // half the default target-duration
+  this.clock.tick(5 * 1000);
+
+  QUnit.strictEqual(this.requests.length, 0, 'no request is sent');
+});
+
+QUnit.test('emits an error if a media refresh fails', function() {
+  let errors = 0;
+  let errorResponseText = 'custom error message';
+  let loader = new PlaylistLoader('live.m3u8', this.fakeHls);
+
+  loader.load();
+
+  loader.on('error', function() {
+    errors++;
+  });
+  this.requests.pop().respond(200, null,
+                              '#EXTM3U\n' +
+                              '#EXT-X-MEDIA-SEQUENCE:0\n' +
+                              '#EXTINF:10,\n' +
+                              '0.t

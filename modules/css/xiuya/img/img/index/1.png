@@ -1,0 +1,1613 @@
+": false,
+    "extensions": ["msh","mesh","silo"]
+  },
+  "model/vnd.collada+xml": {
+    "source": "iana",
+    "extensions": ["dae"]
+  },
+  "model/vnd.dwf": {
+    "source": "iana",
+    "extensions": ["dwf"]
+  },
+  "model/vnd.flatland.3dml": {
+    "source": "iana"
+  },
+  "model/vnd.gdl": {
+    "source": "iana",
+    "extensions": ["gdl"]
+  },
+  "model/vnd.gs-gdl": {
+    "source": "apache"
+  },
+  "model/vnd.gs.gdl": {
+    "source": "iana"
+  },
+  "model/vnd.gtw": {
+    "source": "iana",
+    "extensions": ["gtw"]
+  },
+  "model/vnd.moml+xml": {
+    "source": "iana"
+  },
+  "model/vnd.mts": {
+    "source": "iana",
+    "extensions": ["mts"]
+  },
+  "model/vnd.opengex": {
+    "source": "iana"
+  },
+  "model/vnd.parasolid.transmit.binary": {
+    "source": "iana"
+  },
+  "model/vnd.parasolid.transmit.text": {
+    "source": "iana"
+  },
+  "model/vnd.rosette.annotated-data-model": {
+    "source": "iana"
+  },
+  "model/vnd.valve.source.compiled-map": {
+    "source": "iana"
+  },
+  "model/vnd.vtu": {
+    "source": "iana",
+    "extensions": ["vtu"]
+  },
+  "model/vrml": {
+    "source": "iana",
+    "compressible": false,
+    "extensions": ["wrl","vrml"]
+  },
+  "model/x3d+binary": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": ["x3db","x3dbz"]
+  },
+  "model/x3d+fastinfoset": {
+    "source": "iana"
+  },
+  "model/x3d+vrml": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": ["x3dv","x3dvz"]
+  },
+  "model/x3d+xml": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["x3d","x3dz"]
+  },
+  "model/x3d-vrml": {
+    "source": "iana"
+  },
+  "multipart/alternative": {
+    "source": "iana",
+    "compressible": false
+  },
+  "multipart/appledouble": {
+    "source": "iana"
+  },
+  "multipart/byteranges": {
+    "source": "iana"
+  },
+  "multipart/digest": {
+    "source": "iana"
+  },
+  "multipart/encrypted": {
+    "source": "iana",
+    "compressible": false
+  },
+  "multipart/form-data": {
+    "source": "iana",
+    "compressible": false
+  },
+  "multipart/header-set": {
+    "source": "iana"
+  },
+  "multipart/mixed": {
+    "source": "iana",
+    "compressible": false
+  },
+  "multipart/parallel": {
+    "source": "iana"
+  },
+  "multipart/related": {
+    "source": "iana",
+    "compressible": false
+  },
+  "multipart/report": {
+    "source": "iana"
+  },
+  "multipart/signed": {
+    "source": "iana",
+    "compressible": false
+  },
+  "multipart/voice-message": {
+    "source": "iana"
+  },
+  "multipart/x-mixed-replace": {
+    "source": "iana"
+  },
+  "text/1d-interleaved-parityfec": {
+    "source": "iana"
+  },
+  "text/cache-manifest": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["appcache","manifest"]
+  },
+  "text/calendar": {
+    "source": "iana",
+    "extensions": ["ics","ifb"]
+  },
+  "text/calender": {
+    "compressible": true
+  },
+  "text/cmd": {
+    "compressible": true
+  },
+  "text/coffeescript": {
+    "extensions": ["coffee","litcoffee"]
+  },
+  "text/css": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["css"]
+  },
+  "text/csv": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["csv"]
+  },
+  "text/csv-schema": {
+    "source": "iana"
+  },
+  "text/directory": {
+    "source": "iana"
+  },
+  "text/dns": {
+    "source": "iana"
+  },
+  "text/ecmascript": {
+    "source": "iana"
+  },
+  "text/encaprtp": {
+    "source": "iana"
+  },
+  "text/enriched": {
+    "source": "iana"
+  },
+  "text/fwdred": {
+    "source": "iana"
+  },
+  "text/grammar-ref-list": {
+    "source": "iana"
+  },
+  "text/hjson": {
+    "extensions": ["hjson"]
+  },
+  "text/html": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["html","htm","shtml"]
+  },
+  "text/jade": {
+    "extensions": ["jade"]
+  },
+  "text/javascript": {
+    "source": "iana",
+    "compressible": true
+  },
+  "text/jcr-cnd": {
+    "source": "iana"
+  },
+  "text/jsx": {
+    "compressible": true,
+    "extensions": ["jsx"]
+  },
+  "text/less": {
+    "extensions": ["less"]
+  },
+  "text/markdown": {
+    "source": "iana"
+  },
+  "text/mathml": {
+    "source": "nginx",
+    "extensions": ["mml"]
+  },
+  "text/mizar": {
+    "source": "iana"
+  },
+  "text/n3": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["n3"]
+  },
+  "text/parameters": {
+    "source": "iana"
+  },
+  "text/parityfec": {
+    "source": "iana"
+  },
+  "text/plain": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["txt","text","conf","def","list","log","in","ini"]
+  },
+  "text/provenance-notation": {
+    "source": "iana"
+  },
+  "text/prs.fallenstein.rst": {
+    "source": "iana"
+  },
+  "text/prs.lines.tag": {
+    "source": "iana",
+    "extensions": ["dsc"]
+  },
+  "text/prs.prop.logic": {
+    "source": "iana"
+  },
+  "text/raptorfec": {
+    "source": "iana"
+  },
+  "text/red": {
+    "source": "iana"
+  },
+  "text/rfc822-headers": {
+    "source": "iana"
+  },
+  "text/richtext": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["rtx"]
+  },
+  "text/rtf": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["rtf"]
+  },
+  "text/rtp-enc-aescm128": {
+    "source": "iana"
+  },
+  "text/rtploopback": {
+    "source": "iana"
+  },
+  "text/rtx": {
+    "source": "iana"
+  },
+  "text/sgml": {
+    "source": "iana",
+    "extensions": ["sgml","sgm"]
+  },
+  "text/slim": {
+    "extensions": ["slim","slm"]
+  },
+  "text/stylus": {
+    "extensions": ["stylus","styl"]
+  },
+  "text/t140": {
+    "source": "iana"
+  },
+  "text/tab-separated-values": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["tsv"]
+  },
+  "text/troff": {
+    "source": "iana",
+    "extensions": ["t","tr","roff","man","me","ms"]
+  },
+  "text/turtle": {
+    "source": "iana",
+    "extensions": ["ttl"]
+  },
+  "text/ulpfec": {
+    "source": "iana"
+  },
+  "text/uri-list": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["uri","uris","urls"]
+  },
+  "text/vcard": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["vcard"]
+  },
+  "text/vnd.a": {
+    "source": "iana"
+  },
+  "text/vnd.abc": {
+    "source": "iana"
+  },
+  "text/vnd.ascii-art": {
+    "source": "iana"
+  },
+  "text/vnd.curl": {
+    "source": "iana",
+    "extensions": ["curl"]
+  },
+  "text/vnd.curl.dcurl": {
+    "source": "apache",
+    "extensions": ["dcurl"]
+  },
+  "text/vnd.curl.mcurl": {
+    "source": "apache",
+    "extensions": ["mcurl"]
+  },
+  "text/vnd.curl.scurl": {
+    "source": "apache",
+    "extensions": ["scurl"]
+  },
+  "text/vnd.debian.copyright": {
+    "source": "iana"
+  },
+  "text/vnd.dmclientscript": {
+    "source": "iana"
+  },
+  "text/vnd.dvb.subtitle": {
+    "source": "iana",
+    "extensions": ["sub"]
+  },
+  "text/vnd.esmertec.theme-descriptor": {
+    "source": "iana"
+  },
+  "text/vnd.fly": {
+    "source": "iana",
+    "extensions": ["fly"]
+  },
+  "text/vnd.fmi.flexstor": {
+    "source": "iana",
+    "extensions": ["flx"]
+  },
+  "text/vnd.graphviz": {
+    "source": "iana",
+    "extensions": ["gv"]
+  },
+  "text/vnd.in3d.3dml": {
+    "source": "iana",
+    "extensions": ["3dml"]
+  },
+  "text/vnd.in3d.spot": {
+    "source": "iana",
+    "extensions": ["spot"]
+  },
+  "text/vnd.iptc.newsml": {
+    "source": "iana"
+  },
+  "text/vnd.iptc.nitf": {
+    "source": "iana"
+  },
+  "text/vnd.latex-z": {
+    "source": "iana"
+  },
+  "text/vnd.motorola.reflex": {
+    "source": "iana"
+  },
+  "text/vnd.ms-mediapackage": {
+    "source": "iana"
+  },
+  "text/vnd.net2phone.commcenter.command": {
+    "source": "iana"
+  },
+  "text/vnd.radisys.msml-basic-layout": {
+    "source": "iana"
+  },
+  "text/vnd.si.uricatalogue": {
+    "source": "iana"
+  },
+  "text/vnd.sun.j2me.app-descriptor": {
+    "source": "iana",
+    "extensions": ["jad"]
+  },
+  "text/vnd.trolltech.linguist": {
+    "source": "iana"
+  },
+  "text/vnd.wap.si": {
+    "source": "iana"
+  },
+  "text/vnd.wap.sl": {
+    "source": "iana"
+  },
+  "text/vnd.wap.wml": {
+    "source": "iana",
+    "extensions": ["wml"]
+  },
+  "text/vnd.wap.wmlscript": {
+    "source": "iana",
+    "extensions": ["wmls"]
+  },
+  "text/vtt": {
+    "charset": "UTF-8",
+    "compressible": true,
+    "extensions": ["vtt"]
+  },
+  "text/x-asm": {
+    "source": "apache",
+    "extensions": ["s","asm"]
+  },
+  "text/x-c": {
+    "source": "apache",
+    "extensions": ["c","cc","cxx","cpp","h","hh","dic"]
+  },
+  "text/x-component": {
+    "source": "nginx",
+    "extensions": ["htc"]
+  },
+  "text/x-fortran": {
+    "source": "apache",
+    "extensions": ["f","for","f77","f90"]
+  },
+  "text/x-gwt-rpc": {
+    "compressible": true
+  },
+  "text/x-handlebars-template": {
+    "extensions": ["hbs"]
+  },
+  "text/x-java-source": {
+    "source": "apache",
+    "extensions": ["java"]
+  },
+  "text/x-jquery-tmpl": {
+    "compressible": true
+  },
+  "text/x-lua": {
+    "extensions": ["lua"]
+  },
+  "text/x-markdown": {
+    "compressible": true,
+    "extensions": ["markdown","md","mkd"]
+  },
+  "text/x-nfo": {
+    "source": "apache",
+    "extensions": ["nfo"]
+  },
+  "text/x-opml": {
+    "source": "apache",
+    "extensions": ["opml"]
+  },
+  "text/x-pascal": {
+    "source": "apache",
+    "extensions": ["p","pas"]
+  },
+  "text/x-processing": {
+    "compressible": true,
+    "extensions": ["pde"]
+  },
+  "text/x-sass": {
+    "extensions": ["sass"]
+  },
+  "text/x-scss": {
+    "extensions": ["scss"]
+  },
+  "text/x-setext": {
+    "source": "apache",
+    "extensions": ["etx"]
+  },
+  "text/x-sfv": {
+    "source": "apache",
+    "extensions": ["sfv"]
+  },
+  "text/x-suse-ymp": {
+    "compressible": true,
+    "extensions": ["ymp"]
+  },
+  "text/x-uuencode": {
+    "source": "apache",
+    "extensions": ["uu"]
+  },
+  "text/x-vcalendar": {
+    "source": "apache",
+    "extensions": ["vcs"]
+  },
+  "text/x-vcard": {
+    "source": "apache",
+    "extensions": ["vcf"]
+  },
+  "text/xml": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["xml"]
+  },
+  "text/xml-external-parsed-entity": {
+    "source": "iana"
+  },
+  "text/yaml": {
+    "extensions": ["yaml","yml"]
+  },
+  "video/1d-interleaved-parityfec": {
+    "source": "apache"
+  },
+  "video/3gpp": {
+    "source": "apache",
+    "extensions": ["3gp","3gpp"]
+  },
+  "video/3gpp-tt": {
+    "source": "apache"
+  },
+  "video/3gpp2": {
+    "source": "apache",
+    "extensions": ["3g2"]
+  },
+  "video/bmpeg": {
+    "source": "apache"
+  },
+  "video/bt656": {
+    "source": "apache"
+  },
+  "video/celb": {
+    "source": "apache"
+  },
+  "video/dv": {
+    "source": "apache"
+  },
+  "video/encaprtp": {
+    "source": "apache"
+  },
+  "video/h261": {
+    "source": "apache",
+    "extensions": ["h261"]
+  },
+  "video/h263": {
+    "source": "apache",
+    "extensions": ["h263"]
+  },
+  "video/h263-1998": {
+    "source": "apache"
+  },
+  "video/h263-2000": {
+    "source": "apache"
+  },
+  "video/h264": {
+    "source": "apache",
+    "extensions": ["h264"]
+  },
+  "video/h264-rcdo": {
+    "source": "apache"
+  },
+  "video/h264-svc": {
+    "source": "apache"
+  },
+  "video/h265": {
+    "source": "apache"
+  },
+  "video/iso.segment": {
+    "source": "apache"
+  },
+  "video/jpeg": {
+    "source": "apache",
+    "extensions": ["jpgv"]
+  },
+  "video/jpeg2000": {
+    "source": "apache"
+  },
+  "video/jpm": {
+    "source": "apache",
+    "extensions": ["jpm","jpgm"]
+  },
+  "video/mj2": {
+    "source": "apache",
+    "extensions": ["mj2","mjp2"]
+  },
+  "video/mp1s": {
+    "source": "apache"
+  },
+  "video/mp2p": {
+    "source": "apache"
+  },
+  "video/mp2t": {
+    "source": "apache",
+    "extensions": ["ts"]
+  },
+  "video/mp4": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": ["mp4","mp4v","mpg4"]
+  },
+  "video/mp4v-es": {
+    "source": "apache"
+  },
+  "video/mpeg": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": ["mpeg","mpg","mpe","m1v","m2v"]
+  },
+  "video/mpeg4-generic": {
+    "source": "apache"
+  },
+  "video/mpv": {
+    "source": "apache"
+  },
+  "video/nv": {
+    "source": "apache"
+  },
+  "video/ogg": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": ["ogv"]
+  },
+  "video/parityfec": {
+    "source": "apache"
+  },
+  "video/pointer": {
+    "source": "apache"
+  },
+  "video/quicktime": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": ["qt","mov"]
+  },
+  "video/raptorfec": {
+    "source": "apache"
+  },
+  "video/raw": {
+    "source": "apache"
+  },
+  "video/rtp-enc-aescm128": {
+    "source": "apache"
+  },
+  "video/rtploopback": {
+    "source": "apache"
+  },
+  "video/rtx": {
+    "source": "apache"
+  },
+  "video/smpte292m": {
+    "source": "apache"
+  },
+  "video/ulpfec": {
+    "source": "apache"
+  },
+  "video/vc1": {
+    "source": "apache"
+  },
+  "video/vnd.cctv": {
+    "source": "apache"
+  },
+  "video/vnd.dece.hd": {
+    "source": "apache",
+    "extensions": ["uvh","uvvh"]
+  },
+  "video/vnd.dece.mobile": {
+    "source": "apache",
+    "extensions": ["uvm","uvvm"]
+  },
+  "video/vnd.dece.mp4": {
+    "source": "apache"
+  },
+  "video/vnd.dece.pd": {
+    "source": "apache",
+    "extensions": ["uvp","uvvp"]
+  },
+  "video/vnd.dece.sd": {
+    "source": "apache",
+    "extensions": ["uvs","uvvs"]
+  },
+  "video/vnd.dece.video": {
+    "source": "apache",
+    "extensions": ["uvv","uvvv"]
+  },
+  "video/vnd.directv.mpeg": {
+    "source": "apache"
+  },
+  "video/vnd.directv.mpeg-tts": {
+    "source": "apache"
+  },
+  "video/vnd.dlna.mpeg-tts": {
+    "source": "apache"
+  },
+  "video/vnd.dvb.file": {
+    "source": "apache",
+    "extensions": ["dvb"]
+  },
+  "video/vnd.fvt": {
+    "source": "apache",
+    "extensions": ["fvt"]
+  },
+  "video/vnd.hns.video": {
+    "source": "apache"
+  },
+  "video/vnd.iptvforum.1dparityfec-1010": {
+    "source": "apache"
+  },
+  "video/vnd.iptvforum.1dparityfec-2005": {
+    "source": "apache"
+  },
+  "video/vnd.iptvforum.2dparityfec-1010": {
+    "source": "apache"
+  },
+  "video/vnd.iptvforum.2dparityfec-2005": {
+    "source": "apache"
+  },
+  "video/vnd.iptvforum.ttsavc": {
+    "source": "apache"
+  },
+  "video/vnd.iptvforum.ttsmpeg2": {
+    "source": "apache"
+  },
+  "video/vnd.motorola.video": {
+    "source": "apache"
+  },
+  "video/vnd.motorola.videop": {
+    "source": "apache"
+  },
+  "video/vnd.mpegurl": {
+    "source": "apache",
+    "extensions": ["mxu","m4u"]
+  },
+  "video/vnd.ms-playready.media.pyv": {
+    "source": "apache",
+    "extensions": ["pyv"]
+  },
+  "video/vnd.nokia.interleaved-multimedia": {
+    "source": "apache"
+  },
+  "video/vnd.nokia.videovoip": {
+    "source": "apache"
+  },
+  "video/vnd.objectvideo": {
+    "source": "apache"
+  },
+  "video/vnd.radgamettools.bink": {
+    "source": "apache"
+  },
+  "video/vnd.radgamettools.smacker": {
+    "source": "apache"
+  },
+  "video/vnd.sealed.mpeg1": {
+    "source": "apache"
+  },
+  "video/vnd.sealed.mpeg4": {
+    "source": "apache"
+  },
+  "video/vnd.sealed.swf": {
+    "source": "apache"
+  },
+  "video/vnd.sealedmedia.softseal.mov": {
+    "source": "apache"
+  },
+  "video/vnd.uvvu.mp4": {
+    "source": "apache",
+    "extensions": ["uvu","uvvu"]
+  },
+  "video/vnd.vivo": {
+    "source": "apache",
+    "extensions": ["viv"]
+  },
+  "video/vp8": {
+    "source": "apache"
+  },
+  "video/webm": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": ["webm"]
+  },
+  "video/x-f4v": {
+    "source": "apache",
+    "extensions": ["f4v"]
+  },
+  "video/x-fli": {
+    "source": "apache",
+    "extensions": ["fli"]
+  },
+  "video/x-flv": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": ["flv"]
+  },
+  "video/x-m4v": {
+    "source": "apache",
+    "extensions": ["m4v"]
+  },
+  "video/x-matroska": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": ["mkv","mk3d","mks"]
+  },
+  "video/x-mng": {
+    "source": "apache",
+    "extensions": ["mng"]
+  },
+  "video/x-ms-asf": {
+    "source": "apache",
+    "extensions": ["asf","asx"]
+  },
+  "video/x-ms-vob": {
+    "source": "apache",
+    "extensions": ["vob"]
+  },
+  "video/x-ms-wm": {
+    "source": "apache",
+    "extensions": ["wm"]
+  },
+  "video/x-ms-wmv": {
+    "source": "apache",
+    "compressible": false,
+    "extensions": ["wmv"]
+  },
+  "video/x-ms-wmx": {
+    "source": "apache",
+    "extensions": ["wmx"]
+  },
+  "video/x-ms-wvx": {
+    "source": "apache",
+    "extensions": ["wvx"]
+  },
+  "video/x-msvideo": {
+    "source": "apache",
+    "extensions": ["avi"]
+  },
+  "video/x-sgi-movie": {
+    "source": "apache",
+    "extensions": ["movie"]
+  },
+  "video/x-smv": {
+    "source": "apache",
+    "extensions": ["smv"]
+  },
+  "x-conference/x-cooltalk": {
+    "source": "apache",
+    "extensions": ["ice"]
+  },
+  "x-shader/x-fragment": {
+    "compressible": true
+  },
+  "x-shader/x-vertex": {
+    "compressible": true
+  }
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    1.27.0 / 2017-03-16
+===================
+
+  * Add `application/emergencycalldata.control+xml`
+  * Add `application/emergencycalldata.ecall.msd`
+  * Add `application/emergencycalldata.veds+xml`
+  * Add `application/geo+json-seq`
+  * Add `application/n-quads`
+  * Add `application/n-triples`
+  * Add `application/vnd.apothekende.reservation+json`
+  * Add `application/vnd.efi.img`
+  * Add `application/vnd.efi.iso`
+  * Add `application/vnd.imagemeter.image+zip`
+  * Add `application/vnd.las.las+json`
+  * Add `application/vnd.ocf+cbor`
+  * Add `audio/melp`
+  * Add `audio/melp1200`
+  * Add `audio/melp2400`
+  * Add `audio/melp600`
+  * Add `image/apng` with extension `.apng`
+
+1.26.0 / 2017-01-14
+===================
+
+  * Add `application/coap-payload`
+  * Add `application/cose`
+  * Add `application/cose-key`
+  * Add `application/cose-key-set`
+  * Add `application/mud+json`
+  * Add `application/trig`
+  * Add `application/vnd.dataresource+json`
+  * Add `application/vnd.hc+json`
+  * Add `application/vnd.tableschema+json`
+  * Add `application/yang-patch+json`
+  * Add `application/yang-patch+xml`
+  * Add extension `.geojson` to `application/geo+json`
+
+1.25.0 / 2016-11-11
+===================
+
+  * Add `application/dicom+json`
+  * Add `application/dicom+xml`
+  * Add `application/vnd.openstreetmap.data+xml`
+  * Add `application/vnd.tri.onesource`
+  * Add `application/yang-data+json`
+  * Add `application/yang-data+xml`
+
+1.24.0 / 2016-09-18
+===================
+
+  * Add `application/clue_info+xml`
+  * Add `application/geo+json`
+  * Add `application/lgr+xml`
+  * Add `application/vnd.amazon.mobi8-ebook`
+  * Add `application/vnd.chess-pgn`
+  * Add `application/vnd.comicbook+zip`
+  * Add `application/vnd.d2l.coursepackage1p0+zip`
+  * Add `application/vnd.espass-espass+zip`
+  * Add `application/vnd.nearst.inv+json`
+  * Add `application/vnd.oma.lwm2m+json`
+  * Add `application/vnd.oma.lwm2m+tlv`
+  * Add `application/vnd.quarantainenet`
+  * Add `application/vnd.rar`
+  * Add `audio/mp3`
+  * Add `image/dicom-rle`
+  * Add `image/emf`
+  * Add `image/jls`
+  * Add `image/wmf`
+  * Add `model/gltf+json`
+  * Add `text/vnd.ascii-art`
+
+1.23.0 / 2016-05-01
+===================
+
+  * Add `application/efi`
+  * Add `application/vnd.3gpp.sms+xml`
+  * Add `application/vnd.3lightssoftware.imagescal`
+  * Add `application/vnd.coreos.ignition+json`
+  * Add `application/vnd.desmume.movie`
+  * Add `application/vnd.onepager`
+  * Add `application/vnd.vel+json`
+  * Add `text/prs.prop.logic`
+  * Add `video/encaprtp`
+  * Add `video/h265`
+  * Add `video/iso.segment`
+  * Add `video/raptorfec`
+  * Add `video/rtploopback`
+  * Add `video/vnd.radgamettools.bink`
+  * Add `video/vnd.radgamettools.smacker`
+  * Add `video/vp8`
+  * Add extension `.3gpp` to `audio/3gpp`
+
+1.22.0 / 2016-02-15
+===================
+
+  * Add `application/ppsp-tracker+json`
+  * Add `application/problem+json`
+  * Add `application/problem+xml`
+  * Add `application/vnd.hdt`
+  * Add `application/vnd.ms-printschematicket+xml`
+  * Add `model/vnd.rosette.annotated-data-model`
+  * Add `text/slim`
+  * Add extension `.rng` to `application/xml`
+  * Fix extension of `application/dash+xml` to be `.mpd`
+  * Update primary extension to `.m4a` for `audio/mp4`
+
+1.21.0 / 2016-01-06
+===================
+
+  * Add `application/emergencycalldata.comment+xml`
+  * Add `application/emergencycalldata.deviceinfo+xml`
+  * Add `application/emergencycalldata.providerinfo+xml`
+  * Add `application/emergencycalldata.serviceinfo+xml`
+  * Add `application/emergencycalldata.subscriberinfo+xml`
+  * Add `application/vnd.filmit.zfc`
+  * Add `application/vnd.google-apps.document`
+  * Add `application/vnd.google-apps.presentation`
+  * Add `application/vnd.google-apps.spreadsheet`
+  * Add `application/vnd.mapbox-vector-tile`
+  * Add `application/vnd.ms-printdevicecapabilities+xml`
+  * Add `application/vnd.ms-windows.devicepairing`
+  * Add `application/vnd.ms-windows.nwprinting.oob`
+  * Add `application/vnd.tml`
+  * Add `audio/evs`
+
+1.20.0 / 2015-11-10
+===================
+
+  * Add `application/cdni`
+  * Add `application/csvm+json`
+  * Add `application/rfc+xml`
+  * Add `application/vnd.3gpp.access-transfer-events+xml`
+  * Add `application/vnd.3gpp.srvcc-ext+xml`
+  * Add `application/vnd.ms-windows.wsd.oob`
+  * Add `application/vnd.oxli.countgraph`
+  * Add `application/vnd.pagerduty+json`
+  * Add `text/x-suse-ymp`
+
+1.19.0 / 2015-09-17
+===================
+
+  * Add `application/vnd.3gpp-prose-pc3ch+xml`
+  * Add `application/vnd.3gpp.srvcc-info+xml`
+  * Add `application/vnd.apple.pkpass`
+  * Add `application/vnd.drive+json`
+
+1.18.0 / 2015-09-03
+===================
+
+  * Add `application/pkcs12`
+  * Add `application/vnd.3gpp-prose+xml`
+  * Add `application/vnd.3gpp.mid-call+xml`
+  * Add `application/vnd.3gpp.state-and-event-info+xml`
+  * Add `application/vnd.anki`
+  * Add `application/vnd.firemonkeys.cloudcell`
+  * Add `application/vnd.openblox.game+xml`
+  * Add `application/vnd.openblox.game-binary`
+
+1.17.0 / 2015-08-13
+===================
+
+  * Add `application/x-msdos-program`
+  * Add `audio/g711-0`
+  * Add `image/vnd.mozilla.apng`
+  * Add extension `.exe` to `application/x-msdos-program`
+
+1.16.0 / 2015-07-29
+===================
+
+  * Add `application/vnd.uri-map`
+
+1.15.0 / 2015-07-13
+===================
+
+  * Add `application/x-httpd-php`
+
+1.14.0 / 2015-06-25
+===================
+
+  * Add `application/scim+json`
+  * Add `application/vnd.3gpp.ussd+xml`
+  * Add `application/vnd.biopax.rdf+xml`
+  * Add `text/x-processing`
+
+1.13.0 / 2015-06-07
+===================
+
+  * Add nginx as a source
+  * Add `application/x-cocoa`
+  * Add `application/x-java-archive-diff`
+  * Add `application/x-makeself`
+  * Add `application/x-perl`
+  * Add `application/x-pilot`
+  * Add `application/x-redhat-package-manager`
+  * Add `application/x-sea`
+  * Add `audio/x-m4a`
+  * Add `audio/x-realaudio`
+  * Add `image/x-jng`
+  * Add `text/mathml`
+
+1.12.0 / 2015-06-05
+===================
+
+  * Add `application/bdoc`
+  * Add `application/vnd.hyperdrive+json`
+  * Add `application/x-bdoc`
+  * Add extension `.rtf` to `text/rtf`
+
+1.11.0 / 2015-05-31
+===================
+
+  * Add `audio/wav`
+  * Add `audio/wave`
+  * Add extension `.litcoffee` to `text/coffeescript`
+  * Add extension `.sfd-hdstx` to `application/vnd.hydrostatix.sof-data`
+  * Add extension `.n-gage` to `application/vnd.nokia.n-gage.symbian.install`
+
+1.10.0 / 2015-05-19
+===================
+
+  * Add `application/vnd.balsamiq.bmpr`
+  * Add `application/vnd.microsoft.portable-executable`
+  * Add `application/x-ns-proxy-autoconfig`
+
+1.9.1 / 2015-04-19
+==================
+
+  * Remove `.json` extension from `application/manifest+json`
+    - This is causing bugs downstream
+
+1.9.0 / 2015-04-19
+==================
+
+  * Add `application/manifest+json`
+  * Add `application/vnd.micro+json`
+  * Add `image/vnd.zbrush.pcx`
+  * Add `image/x-ms-bmp`
+
+1.8.0 / 2015-03-13
+==================
+
+  * Add `application/vnd.citationstyles.style+xml`
+  * Add `application/vnd.fastcopy-disk-image`
+  * Add `application/vnd.gov.sk.xmldatacontainer+xml`
+  * Add extension `.jsonld` to `application/ld+json`
+
+1.7.0 / 2015-02-08
+==================
+
+  * Add `application/vnd.gerber`
+  * Add `application/vnd.msa-disk-image`
+
+1.6.1 / 2015-02-05
+==================
+
+  * Community extensions ownership transferred from `node-mime`
+
+1.6.0 / 2015-01-29
+==================
+
+  * Add `application/jose`
+  * Add `application/jose+json`
+  * Add `application/json-seq`
+  * Add `application/jwk+json`
+  * Add `application/jwk-set+json`
+  * Add `application/jwt`
+  * Add `application/rdap+json`
+  * Add `application/vnd.gov.sk.e-form+xml`
+  * Add `application/vnd.ims.imsccv1p3`
+
+1.5.0 / 2014-12-30
+==================
+
+  * Add `application/vnd.oracle.resource+json`
+  * Fix various invalid MIME type entries
+    - `application/mbox+xml`
+    - `application/oscp-response`
+    - `application/vwg-multiplexed`
+    - `audio/g721`
+
+1.4.0 / 2014-12-21
+==================
+
+  * Add `application/vnd.ims.imsccv1p2`
+  * Fix various invalid MIME type entries
+    - `application/vnd-acucobol`
+    - `application/vnd-curl`
+    - `application/vnd-dart`
+    - `application/vnd-dxr`
+    - `application/vnd-fdf`
+    - `application/vnd-mif`
+    - `application/vnd-sema`
+    - `application/vnd-wap-wmlc`
+    - `application/vnd.adobe.flash-movie`
+    - `application/vnd.dece-zip`
+    - `application/vnd.dvb_service`
+    - `application/vnd.micrografx-igx`
+    - `application/vnd.sealed-doc`
+    - `application/vnd.sealed-eml`
+    - `application/vnd.sealed-mht`
+    - `application/vnd.sealed-ppt`
+    - `application/vnd.sealed-tiff`
+    - `application/vnd.sealed-xls`
+    - `application/vnd.sealedmedia.softseal-html`
+    - `application/vnd.sealedmedia.softseal-pdf`
+    - `application/vnd.wap-slc`
+    - `application/vnd.wap-wbxml`
+    - `audio/vnd.sealedmedia.softseal-mpeg`
+    - `image/vnd-djvu`
+    - `image/vnd-svf`
+    - `image/vnd-wap-wbmp`
+    - `image/vnd.sealed-png`
+    - `image/vnd.sealedmedia.softseal-gif`
+    - `image/vnd.sealedmedia.softseal-jpg`
+    - `model/vnd-dwf`
+    - `model/vnd.parasolid.transmit-binary`
+    - `model/vnd.parasolid.transmit-text`
+    - `text/vnd-a`
+    - `text/vnd-curl`
+    - `text/vnd.wap-wml`
+  * Remove example template MIME types
+    - `application/example`
+    - `audio/example`
+    - `image/example`
+    - `message/example`
+    - `model/example`
+    - `multipart/example`
+    - `text/example`
+    - `video/example`
+
+1.3.1 / 2014-12-16
+==================
+
+  * Fix missing extensions
+    - `application/json5`
+    - `text/hjson`
+
+1.3.0 / 2014-12-07
+==================
+
+  * Add `application/a2l`
+  * Add `application/aml`
+  * Add `application/atfx`
+  * Add `application/atxml`
+  * Add `application/cdfx+xml`
+  * Add `application/dii`
+  * Add `application/json5`
+  * Add `application/lxf`
+  * Add `application/mf4`
+  * Add `application/vnd.apache.thrift.compact`
+  * Add `application/vnd.apache.thrift.json`
+  * Add `application/vnd.coffeescript`
+  * Add `application/vnd.enphase.envoy`
+  * Add `application/vnd.ims.imsccv1p1`
+  * Add `text/csv-schema`
+  * Add `text/hjson`
+  * Add `text/markdown`
+  * Add `text/yaml`
+
+1.2.0 / 2014-11-09
+==================
+
+  * Add `application/cea`
+  * Add `application/dit`
+  * Add `application/vnd.gov.sk.e-form+zip`
+  * Add `application/vnd.tmd.mediaflex.api+xml`
+  * Type `application/epub+zip` is now IANA-registered
+
+1.1.2 / 2014-10-23
+==================
+
+  * Rebuild database for `application/x-www-form-urlencoded` change
+
+1.1.1 / 2014-10-20
+==================
+
+  * Mark `application/x-www-form-urlencoded` as compressible.
+
+1.1.0 / 2014-09-28
+==================
+
+  * Add `application/font-woff2`
+
+1.0.3 / 2014-09-25
+==================
+
+  * Fix engine requirement in package
+
+1.0.2 / 2014-09-25
+==================
+
+  * Add `application/coap-group+json`
+  * Add `application/dcd`
+  * Add `application/vnd.apache.thrift.binary`
+  * Add `image/vnd.tencent.tap`
+  * Mark all JSON-derived types as compressible
+  * Update `text/vtt` data
+
+1.0.1 / 2014-08-30
+==================
+
+  * Fix extension ordering
+
+1.0.0 / 2014-08-30
+==================
+
+  * Add `application/atf`
+  * Add `application/merge-patch+json`
+  * Add `multipart/x-mixed-replace`
+  * Add `source: 'apache'` metadata
+  * Add `source: 'iana'` metadata
+  * Remove badly-assumed charset data
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+The MIT License (MIT)
+
+Copyright (c) 2014 Jonathan Ong me@jongleberry.com
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     {
+  "_args": [
+    [
+      {
+        "raw": "mime-db@~1.27.0",
+        "scope": null,
+        "escapedName": "mime-db",
+        "name": "mime-db",
+        "rawSpec": "~1.27.0",
+        "spec": ">=1.27.0 <1.28.0",
+        "type": "range"
+      },
+      "F:\\study\\lib-flexible\\node_modules\\mime-types"
+    ]
+  ],
+  "_cnpm_publish_time": 1489722299581,
+  "_from": "mime-db@>=1.27.0 <1.28.0",
+  "_hasShrinkwrap": false,
+  "_id": "mime-db@1.27.0",
+  "_inCache": true,
+  "_location": "/mime-db",
+  "_nodeVersion": "4.7.3",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/mime-db-1.27.0.tgz_1489722296902_0.15233952621929348"
+  },
+  "_npmUser": {
+    "name": "dougwilson",
+    "email": "doug@somethingdoug.com"
+  },
+  "_npmVersion": "2.15.11",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "mime-db@~1.27.0",
+    "scope": null,
+    "escapedName": "mime-db",
+    "name": "mime-db",
+    "rawSpec": "~1.27.0",
+    "spec": ">=1.27.0 <1.28.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/mime-types"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/mime-db/download/mime-db-1.27.0.tgz",
+  "_shasum": "820f572296bbd20ec25ed55e5b5de869e5436eb1",
+  "_shrinkwrap": null,
+  "_spec": "mime-db@~1.27.0",
+  "_where": "F:\\study\\lib-flexible\\node_modules\\mime-types",
+  "bugs": {
+    "url": "https://github.com/jshttp/mime-db/issues"
+  },
+  "contributors": [
+    {
+      "name": "Douglas Christopher Wilson",
+      "email": "doug@somethingdoug.com"
+    },
+    {
+      "name": "Jonathan Ong",
+      "email": "me@jongleberry.com",
+      "url": "http://jongleberry.com"
+    },
+    {
+      "name": "Robert Kieffer",
+      "email": "robert@broofa.com",
+      "url": "http://github.com/broofa"
+    }
+  ],
+  "dependencies": {},
+  "description": "Media Type Database",
+  "devDependencies": {
+    "bluebird": "3.5.0",
+    "co": "4.6.0",
+    "cogent": "1.0.1",
+    "csv-parse": "1.2.0",
+    "eslint": "3.17.1",
+    "eslint-config-standard": "7.0.1",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-standard": "2.1.1",
+    "gnode": "0.1.2",
+    "istanbul": "0.4.5",
+    "mocha": "1.21.5",
+    "raw-body": "2.2.0",
+    "stream-to-array": "2.3.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "820f572296bbd20ec25ed55e5b5de869e5436eb1",
+    "size": 24091,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/mime-db/download/mime-db-1.27.0.tgz"
+  },
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "files": [
+    "HISTORY.md",
+    "LICENSE",
+    "README.md",
+    "db.json",
+    "index.js"
+  ],
+  "gitHead": "c232c21378647dfbb7762410c7b025a47f114b94",
+  "homepage": "https://github.com/jshttp/mime-db#readme",
+  "keywords": [
+    "mime",
+    "db",
+    "type",
+    "types",
+    "database",
+    "charset",
+    "charsets"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "dougwilson",
+      "email": "doug@somethingdoug.com"
+    },
+    {
+      "name": "jongleberry",
+      "email": "jonathanrichardong@gmail.com"
+    }
+  ],
+  "name": "mime-db",
+  "optionalDependencies": {},
+  "publish_time": 1489722299581,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshttp/mime-db.git"
+  },
+  "scripts": {
+    "build": "node scripts/build",
+    "fetch": "gnode scripts/fetch-apache && gnode scripts/fetch-iana && gnode scripts/fetch-nginx",
+    "lint": "eslint .",
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
+    "update": "npm run fetch && npm run build"
+  },
+  "version": "1.27.0"
+}
+                                                                                                                                                                                                                                                                                                                                  INDX( 	 ;=C^            (   Ä  Ë       “                    *≠     ` P     )≠     %6ñ•‰“uxO^Ë„“u	d¥‰“%6ñ•‰“ P     \@             d b . j s o n *≠     p Z     )≠     %6ñ•‰“uxO^Ë„“u	d¥‰“%6ñ•‰“ P     \@             D B 6 2 7 2 ~ 1 . J S O       +≠     h V     )≠     e“ñ•‰“≈^Ë„“Ö0d¥‰“e“ñ•‰“ 0      ,              
+H I S T O R Y . m d   ,≠     h R     )≠      ö•‰“u‰]Ë„“Ö0d¥‰“ ö•‰“à       à               i n d e x . j s       -≠     ` P     )≠     %õ•‰ Ur∆]Ë„“ïWd¥‰“%õ•‰“       K              L I C E N S E .≠     p Z     )≠     Uçõ•‰“u5o^Ë„“•~d¥‰“Uçõ•‰“       æ              p a c k a g e . j s o n       .≠     p Z     )≠     Uçõ•‰“u5o^Ë„“•~d¥‰“Uçõ•‰“       æ              P A C K A G ~ 1 . J S O       /≠     h T     )≠     •Pú•‰“UD§]Ë„“•~d¥‰“•Pú•‰“       Ø              	R E A D M E . m d                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    # mime-db
+
+[![NPM Version][npm-version-image]][npm-url]
+[![NPM Downloads][npm-downloads-image]][npm-url]
+[![Node.js Version][node-image]][node-url]
+[![Build Status][travis-image]][travis-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
+
+This is a database of all mime types.
+It consists of a single, public JSON file and does not include any logic,
+allowing it to remain as un-opinionated as possible with an API.
+It aggregates data from the following sources:
+
+- http://www.iana.org/assignments/media-types/media-types.xhtml
+- http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types
+- http://hg.nginx.org/nginx/raw-file/default/conf/mime.types
+
+## Installation
+
+```bash
+npm install mime-db
+```
+
+### Database Download
+
+If you're crazy enough to use this in the browser, you can just grab the
+JSON file using [RawGit](https://rawgit.com/). It is recommended to replace
+`master` with [a release tag](https://github.com/jshttp/mime-db/tags) as the
+JSON format may change in the future.
+
+```
+https://cdn.rawgit.com/jshttp/mime-db/master/db.json
+```
+
+## Usage
+
+```js
+var db = require('mime-db');
+
+// grab data on .js files
+var data = db['application/javascript'];
+```
+
+## Data Structure
+
+The JSON file is a map lookup for lowercased mime types.
+Each mime type has the following properties:
+
+- `.source` - where the mime type is defined.
+    If not set, it's probably a custom media type.
+    - `apache` - [Apache common media types](http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types)
+    - `iana` - [IANA-defined media types](http://www.iana.org/assignments/media-types/media-types.xhtml)
+    - `nginx` - [nginx media types](http://hg.nginx.org/nginx/raw-file/default/conf/mime.types)
+- `.extensions[]` - known extensions associated with this mime type.
+- `.compressible` - whether a file of this type can be gzipped.
+- `.charset` - the default charset associated with this type, if any.
+
+If unknown, every property could be `undefined`.
+
+## Contributing
+
+To edit the database, only make PRs against `src/custom.json` or
+`src/custom-suffix.json`.
+
+To update the build, run `npm run build`.
+
+## Adding Custom Media Types
+
+The best way to get new media types included in this library is to register
+them with the IANA. The community registration procedure is outlined in
+[RFC 6838 section 5](http://tools.ietf.org/html/rfc6838#section-5). Types
+registered with the IANA are automatically pulled into this library.
+
+[npm-version-image]: https://img.shields.io/npm/v/mime-db.svg
+[npm-downloads-image]: https://img.shields.io/npm/dm/mime-db.svg
+[npm-url]: https://npmjs.org/package/mime-db
+[travis-image]: https://img.shields.io/travis/jshttp/mime-db/master.svg
+[travis-url]: https://travis-ci.org/jshttp/mime-db
+[coveralls-image]: https://img.shields.io/coveralls/jshttp/mime-db/master.svg
+[coveralls-url]: https://coveralls.io/r/jshttp/mime-db?branch=master
+[node-image]: https://img.shields.io/node/v/mime-db.svg
+[node-url]: http://nodejs.org/download/
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 2.1.15 / 2017-03-23
+===================
+
+  * deps: mime-db@~1.27.0
+    - Add new mime types
+    - Add `image/apng`
+
+2.1.14 / 2017-01-14
+===================
+
+  * deps: mime-db@~1.26.0
+    - Add new mime types
+
+2.1.13 / 2016-11-18
+===================
+
+  * deps: mime-db@~1.25.0
+    - Add new mime types
+
+2.1.12 / 2016-09-18
+===================
+
+  * deps: mime-db@~1.24.0
+    - Add new mime types
+    - Add `audio/mp3`
+
+2.1.11 / 2016-05-01
+===================
+
+  * deps: mime-db@~1.23.0
+    - Add new mime types
+
+2.1.10 / 2016-02-15
+===================
+
+  * deps: mime-db@~1.22.0
+    - Add new mime types
+    - Fix extension of `application/dash+xml`
+    - Update primary extension for `audio/mp4`
+
+2.1.9 / 2016-01-06
+==================
+
+  * deps: mime-db@~1.21.0
+    - Add new mime types
+
+2.1.8 / 2015-11-30
+==================
+
+  * deps: mime-db@~1.20.0
+    - Add new mime types
+
+2.1.7 / 2015-09-20
+==================
+
+  * deps: mime-db@~1.19.0
+    - Add new mime types
+
+2.1.6 / 2015-09-03
+==================
+
+  * deps: mime-db@~1.18.0
+    - Add new mime types
+
+2.1.5 / 2015-08-20
+==================
+
+  * deps: mime-db@~1.17.0
+    - Add new mime types
+
+2.1.4 / 2015-07-30
+==================
+
+  * deps: mime-db@~1.16.0
+    - Add new mime types
+
+2.1.3 / 2015-07-13
+==================
+
+  * deps: mime-db@~1.15.0
+    - Add new mime types
+
+2.1.2 / 2015-06-25
+==================
+
+  * deps: mime-db@~1.14.0
+    - Add new mime types
+
+2.1.1 / 2015-06-08
+==================
+
+  * perf: fix deopt during mapping
+
+2.1.0 / 2015-06-07
+==================
+
+  * Fix inc

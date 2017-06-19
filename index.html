@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>babel</title>
+    <script src="https://og6593g2z.qnssl.com/fundebug.0.0.5.min.js"
+        apikey="8e744fad2a835c3a216bb915cbce8c99a7a3242d87b8b0d0a43de4c99adbf514"></script>
+    <!--[if lt IE 10]>
+        <script type="text/javascript">
+          alert(1);
+        </script>
+    <![endif]-->
+</head>
+
+<body>
+    <script src="./lib/js/jquery/dist/jquery-2.1.0.min.js" charset="utf-8"></script>
+    <script src="./lib/js/md5.js/md5.min.js" charset="utf-8"></script>
+    <script src="./modules/app/newindex.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        /**
+         * 模拟的初始化数据
+         * @type {Object}
+         */
+        var local = {
+            basetoken: "ttuermcmo0n1wshfxx4oxhbd",
+            baseukey: null,
+            basetimekey: "Dh+TJ6N7Kb7mp3844nqpeA==",
+            basetimespan: new Date().getTime(),
+            basepageltime: 1245, //该参数用于判断当前页面是否属于视屏播放页面
+            thisbasepagelstarttime: new Date().getTime()
+        };
+
+        /**
+         * 初始化配置数据
+         * @type {saveRecord}
+         *
+         */
+        var mes = new saveRecord({
+            url: "http://192.168.1.103:3000/postlocal", //ajax发送地址
+            sendTime:  1e4, //数据发送时间间隔
+            saveTime: 2000, //数据保存时间间隔
+            cancelTime: 6e4 * 12, //数据有效期最大时间间隔
+            dataName: "name", //本地存储数据键名
+            key: null //当前页面记录键名，不需要设置。
+        }, local);
+
+        /**
+         * 脚本启动
+         */
+        mes.init();
+    </script>
+</body>
+
+</html>

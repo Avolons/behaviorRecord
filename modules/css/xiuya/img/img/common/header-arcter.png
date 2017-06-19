@@ -1,0 +1,106 @@
+                 <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:17ea71db-54c2-d144-ba70-3a942cb848ed</stEvt:instanceID>
+                  <stEvt:when>2016-09-01T13:28:10+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CC (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:8828980a-febc-0046-8c06-7c5b9bf6dd31</stEvt:instanceID>
+                  <stEvt:when>2016-09-01T14:24:21+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CC (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>derived</stEvt:action>
+                  <stEvt:parameters>converted from image/tiff to application/vnd.adobe.photoshop</stEvt:parameters>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d96a8ebb-542e-7347-a9c3-e1067c67cf4b</stEvt:instanceID>
+                  <stEvt:when>2016-09-01T14:28:02+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CC (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>derived</stEvt:action>
+                  <stEvt:parameters>converted from application/vnd.adobe.photoshop to image/tiff</stEvt:parameters>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:540cf5ef-a128-c244-8dd9-3ba6cbd144b5</stEvt:instanceID>
+                  <stEvt:when>2016-09-01T14:34:10+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CC (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:87e1df28-72e9-1d43-abd6-6a760acfd5fb</stEvt:instanceID>
+                  <stEvt:when>2016-10-11T17:25:26+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CC (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>converted</stEvt:action>
+                  <stEvt:parameters>from image/tiff to image/png</stEvt:parameters>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>derived</stEvt:action>
+                  <stEvt:parameters>converted from image/tiff to image/png</stEvt:parameters>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:a0f07366-5289-2245-b1ad-cfd9ee7f9ae6</stEvt:instanceID>
+                  <stEvt:when>2016-10-11T17:25:26+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CC (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <xmpMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>xmp.iid:87e1df28-72e9-1d43-abd6-6a760acfd5fb</stRef:instanceID>
+            <stRef:documentID>xmp.did:96c16f12-533a-014b-86df-970d95017f46</stRef:documentID>
+            <stRef:originalDocumentID>xmp.did:003b10ef-7f5e-b44b-80a0-c83bc52a6ee8</stRef:originalDocumentID>
+         </xmpMM:DerivedFrom>
+         <photoshop:ColorMode>3</photoshop:ColorMode>
+         <photoshop:ICCProfile>sRGB IEC61966-2.1</photoshop:ICCProfile>
+         <photoshop:TextLayers>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <photoshop:LayerName>Copyright 2016. All right reserved www.zjzx.cn               版权</photoshop:LayerName>
+                  <photoshop:LayerText>Copyright 2016. All right reserved www.zjzx.cn               版权所有：北京中教在线科技有限公司</photoshop:LayerText>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <photoshop:LayerName>关于我们        联系我们           友情合作           诚聘英才          官方网站   </photoshop:LayerName>
+                  <photoshop:LayerText>关于我们        联系我们           友情合作           诚聘英才          官方网站             意见反馈</photoshop:LayerText>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <photoshop:LayerName>  相关课程</photoshop:LayerName>
+                  <photoshop:LayerText>  相关课程</photoshop:LayerText>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <photoshop:LayerName>&gt;&gt;</photoshop:LayerName>
+                  <photoshop:LayerText>&gt;&gt;</photoshop:LayerText>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <photoshop:LayerName>更多</photoshop:LayerName>
+                  <photoshop:LayerText>更多</photoshop:LayerText>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <photoshop:LayerName>数据分析师 优秀员工的十大心态 8090后员工素养的提升</photoshop:LayerName>
+                  <photoshop:LayerText>数据分析师 优秀员工的十大心态 8090后员工素养的提升</photoshop:LayerText>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <photoshop:LayerName>web前端开发</photoshop:LayerName>
+                  <photoshop:LayerText>web前端开发</photoshop:LayerText>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <photoshop:LayerName>立即报名</photoshop:LayerName>
+                  <photoshop:LayerText>立即报名</photoshop:LayerText>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <photoshop:LayerName>指尖上的传承玉雕</photoshop:LayerName>
+                  <photoshop:LayerText>指尖上的传承玉雕</photoshop:LayerText>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <photoshop:LayerName>学习人数：2000              学习时长：20             有效期：2016年8月4日 价     </photoshop:Laye

@@ -1,0 +1,30 @@
+]
+  },
+  "application/vnd.stepmania.stepchart": {
+    "source": "iana",
+    "extensions": ["sm"]
+  },
+  "application/vnd.street-stream": {
+    "source": "iana"
+  },
+  "application/vnd.sun.wadl+xml": {
+    "source": "iana"
+  },
+  "application/vnd.sun.xml.calc": {
+    "source": "apache",
+    "extensions": ["sxc"]
+  },
+  "application/vnd.sun.xml.calc.template": {
+    "source": "apache",
+    "extensions": ["stc"]
+  },
+  "application/vnd.sun.xml.draw": {
+    "source": "apache",
+    "extensions": ["sxd"]
+  },
+  "application/vnd.sun.xml.draw.template": {
+    "source": "apache",
+    "extensions": ["std"]
+  },
+  "application/vnd.sun.xml.impress": {
+    "sourc
